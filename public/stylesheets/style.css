@@ -1,8 +1,11 @@
 
 a {
-  color: #00B7FF;
+  color: rgb(38, 40, 41);
 }
 #main_map{
   height: 500px;
   width: 1500px;
+  
+}
+#projects.projects-section.bg-light{
 }
