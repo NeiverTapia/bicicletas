@@ -14,7 +14,7 @@ exports.bicicleta_create_get=function(req, res){
 exports.bicicleta_create_post=(req, res)=>{
      
     var bike = new Bicicleta(req.body.id, req.body.color, req.body.modelo);
-    bike.ubicacion =[req.body.long, req.body.lat]
+    bike.ubicacion =[req.body.long, req.body.lat];
     
     Bicicleta.add(bike);
     res.redirect('/bicicletas');
