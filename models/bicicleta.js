@@ -29,8 +29,9 @@ Bicicleta.removeById=(aBikeId)=>{
             break;
         }
     }
+    
 }
-
+/*
 var a = new Bicicleta(1,'negro','Calle',[6.25184, -75.56359]);
 var b = new Bicicleta(2,'gris','models',[6.33732, -75.55795]);
 var c = new Bicicleta(3,'red','antigua',[6.18461,-75.59913]);
@@ -39,7 +40,7 @@ var c = new Bicicleta(3,'red','antigua',[6.18461,-75.59913]);
 Bicicleta.add(a);
 Bicicleta.add(b);
 Bicicleta.add(c);
-
+*/
 
 
 module.exports=Bicicleta;
